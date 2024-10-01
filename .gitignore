@@ -1,32 +1,56 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
+# Binaries
 *.exe
 *.out
 *.app
+*.dll
+*.so
+*.dylib
+
+# Compiled object files
+*.o
+*.obj
+
+# Compiled static libraries
+*.lib
+*.a
+
+# Compiled dynamic libraries
+*.dylib
+*.so
+*.dll
+
+# Debug files
+*.pdb
+*.log
+*.tmp
+
+# IDE/Editor specific
+.vscode/
+.idea/
+*.sln
+*.vcxproj
+*.csproj
+*.user
+*.aps
+*.ncb
+*.suo
+*.cache
+*.log
+*.pyc
+
+# Mac specific
+.DS_Store
+
+# Build directories
+build/
+cmake-build-debug/
+cmake-build-release/
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+
+# Temporary files
+*~
